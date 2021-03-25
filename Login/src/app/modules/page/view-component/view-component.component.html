@@ -1,0 +1,2 @@
+<app-authorization *ngIf='!login' (successfulAuthorization)='Authorization()'></app-authorization>
+<app-portfolio *ngIf='login' (asSuccessfulAuthorization)='Authorization()'></app-portfolio>
